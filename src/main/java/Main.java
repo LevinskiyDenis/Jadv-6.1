@@ -3,9 +3,7 @@ import java.util.function.Function;
 
 public class Main {
 
-    private static List<String> vocabulary = new ArrayList<>();
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         String aborigenMsg = "Представьте, что у вас есть, исходный текст сообщения местного жителя";
 
         // Использую чистую функцию - без побочных эффектов и детерминированную (результат зависит только от входящего параметра,
